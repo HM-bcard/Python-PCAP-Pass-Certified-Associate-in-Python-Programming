@@ -1,0 +1,964 @@
+Udemy <https://www.udemy.com/>
+
+
+  Python PCAP: Pass Certified Associate in Python Programming <https://
+  www.udemy.com/course/python-pcap/>
+
+Your progress
+
+29 of 88 complete.
+Finish course to get your certificate
+Share
+
+Instructions
+Hints
+
+Working with strings
+
+John loves analysing textual information. He often reads short stories
+and then tries to find the longest word in such stories. Doing this
+manually takes a long time so we'd like to help him automate the task. \
+
+/Note: You are provided an example of a short story in the code editor.
+The example story should not be part of your solution: it is just there
+to help you./
+
+Write a function named |get_longest_word| which accepts a single string
+argument. The function should return the longest word in the given
+string. Assume that words in a string can be separated with *spaces*,
+*commas*, *new line characters* or *full stops*. This means that
+abbreviated forms with apostrophes (e.g. |I'm|) are considered to be a
+single word. If there is more than one word with the maximum number of
+characters, return the first such word that exists in the string.
+
+Example: For input |Once I'm awaken, I'll sacrifice your soul to the
+ruler of darkness.| the output should be |sacrifice|.
+
+This topic is covered in
+Lecture 26: Joining, splitting and sorting strings
+exercise.py
+
+Reset Code
+
+  
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+def get_longest_word(string):
+    string_list = string.split()
+    longest_word =''
+    for word in string_list:
+        if word.isalpha() == True:
+            if len(word) > len(longest_word):
+                longest_word = word
+            elif len(word) = len(longest_word):
+                
+            else:
+                continue
+        else:
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  
+longest_wordlocal
+get_longest_wordlocal
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Run tests
+
+Run code
+
+All changes saved
+|
+Line 14, Column 17
+Result
+Fail
+
+Test Cases
+Failed: 1, Passed: 0 of 1 tests
+
+test_various_arguments
+Test result
+User logs
+
+Your code failed this test
+Error details
+
+'foe' != "I'm"
+- foe
++ I'm
+ : Incorect return value
+
+Coding Exercise
+Next
+
+Settings
+
+  *
+    Keyboard shortcuts
+     <https://www.udemy.com/learners/coding-exercises/keys_map>
+  *
+    Report abuse
+
+Fullscreen
+
+AI Assistant & Course content
+
+
+    Course content
+
+
+    Overview
+
+
+    Q&AQuestions and answers
+
+
+    Notes
+
+
+    Announcements
+
+
+    Reviews
+
+
+    Learning tools
+
+Search course content
+
+
+    Start a new search
+
+To find captions, lectures or resources
+
+[PCAP-31-03] PCAP – Certified Associate Python Programmer
+6 days till due date
+[PCAP-31-03] PCAP – Certified Associate Python Programmer
+
+
+      Section 1: Introduction
+
+7 / 7 | 18min7 of 7 lectures completed18min
+
+
+      Section 2: Modules and Packages
+
+17 / 18 | 1hr 3min17 of 18 lectures completed1hr 3min
+
+
+      Section 3: Strings
+
+4 / 9 | 28min4 of 9 lectures completed28min
+
+  *
+
+    Lecture completed. Progress cannot be changed for this item.
+
+    Play
+    23. Internal string representation
+
+    9min
+  *
+
+    Lecture completed. Progress cannot be changed for this item.
+
+    Play
+    24. Basic string operations
+
+    7min
+  *
+
+    Lecture completed. Progress cannot be changed for this item.
+
+    Play
+    25. Searching inside strings
+
+    5min
+  *
+
+    Lecture completed. Progress cannot be changed for this item.
+
+    Play
+    26. Joining, splitting and sorting strings
+
+    3min
+  *
+
+    Lecture incomplete. Progress cannot be changed for this item.
+
+    Start
+    Coding Exercise 3: Working with strings
+  *
+
+    Lecture incomplete. Progress cannot be changed for this item.
+
+    Start
+    27. Sample solution: Working with strings
+
+    1min
+  *
+
+    Lecture incomplete. Progress cannot be changed for this item.
+
+    Play
+    28. Comparing strings
+
+    4min
+  *
+
+    Lecture incomplete. Progress cannot be changed for this item.
+
+    Start
+    Quiz 2: Quiz: Strings
+  *
+
+    Lecture incomplete. Progress cannot be changed for this item.
+
+    Start
+    29. Mini Project: Random password generator
+
+    1min
+
+    Resources
+
+      o
+
+        password-generator-instructions.pdf
+
+      o
+
+        password-generator.py
+
+
+      Section 4: Object-Oriented Programming (OOP)
+
+0 / 21 | 1hr 47min0 of 21 lectures completed1hr 47min
+
+
+      Section 5: Exceptions
+
+0 / 12 | 44min0 of 12 lectures completed44min
+
+
+      Section 6: Miscellaneous
+
+0 / 16 | 1hr 9min0 of 16 lectures completed1hr 9min
+
+
+      Section 7: Congratulations!
+
+0 / 1 | 1min0 of 1 lecture completed1min
+
+
+      Section 8: Mock PCAP exam
+
+0 / 1 | 0min0 of 1 lecture completed0min
+
+
+      Section 9: Extra
+
+1 / 3 | 1min1 of 3 lectures completed1min
+
+Take your basic Python to the next level and pass the PCAP exam
+(Associate level)
+Rating: 4.7 out of 54.7
+
+2,055 ratings
+14,186
+Students
+5.5 hours
+Total
+
+Last updated January 2025
+
+English
+
+English [Auto], Dutch [Auto], 
+4 more
+
+information alert
+
+
+    Schedule learning time
+
+Learning a little each day adds up. Research shows that students who
+make learning a habit are more likely to reach their goals. Set time
+aside to learn and get reminders using your learning scheduler.
+Get started
+
+Dismiss
+
+
+    *Prepare for your certification with this course.*
+
+[PCAP-31-03] PCAP – Certified Associate Python Programmer
+
+
+        [PCAP-31-03] PCAP – Certified Associate Python Programmer
+
+Issued by Python Institute
+ <https://www.udemy.com/open-badges/1740964652>
+
+By the numbers
+    Skill level: Intermediate Level
+    Students: 14186
+    Languages: English
+    Captions: Yes
+    Practice tests: 1
+    Questions: 40
+    Lectures: 77
+    Video: 5.5 total hours
+Certificates
+
+    Get Udemy certificate by completing entire course
+
+    Udemy certificate
+Features
+    Available on iOS <https://www.udemy.com/course/python-pcap/learn/
+    null?$deeplink_path=udemy://discover?courseId=4826478> and Android
+    <https://www.udemy.com/course/python-pcap/learn/null?
+    $deeplink_path=udemy://discover?courseId=4826478>
+    Coding exercises
+Description
+
+    Welcome! My name's Adrian and I'm a professional Software Developer.
+    If *you already know basic Python *and want to *take another step
+    with your skills*, then you've just found an excellent course for
+    that! Along the way, you will also create *three practical Python
+    programs*!
+
+    According to statistics, Python is in the top 3 programming
+    languages all around the world. It is *much easier and quicker to
+    learn* that most other languages. At the same time, it's extremely
+    popular among software developers, data analysts and other IT
+    professions. All of this makes it an *excellent choice for your
+    first programming language*.
+
+
+    *COURSE OVERVIEW  *
+
+    In this course, you'll learn intermediate-level Python 3 and you'll
+    get prepared for the Certified Associate in Python Programming exam
+    (PCAP). You will need basic Python skills (entry-level PCEP exam
+    knowledge) to start this course. I'll show you how to install Python
+    and all the necessary tools. You will code along with me andhave a
+    chance to write three practical programs to practice your skills.
+
+    There are 5 exam blocks when you sit the PCAP exam. Consequently,
+    this course has 5 main modules, each one focusing on a different
+    exam block. At the end of each module, you'll have a chance to
+    *solve an exam quiz* to check your skills.
+
+    This course also comes with a *mock PCAP exam* at the very end. It
+    will have the same format as your actual exam, with the same passing
+    grade and time limit. It will show you what kinds of questions you
+    can expect.
+
+
+    *COURSE ADVANTAGES*
+
+    • *concise* – the short video lectures focus on the most important
+    aspects: there are just a few hours of videos to get you started ASAP
+
+    • *based on practice* – instead of useless academic theory, you
+    learn the best developing practices drawn from my work experience,
+
+    • *reasonably priced* – compared to stationary developer bootcamps,
+    the course is much cheaper, so you save not only time but also money,
+
+    • *available anywhere, anytime* – the online form lets you run the
+    course in the most convenient place (at home, work or in a café) and
+    time (while commuting by metro or relaxing at home after work), so
+    you can adjust it to your agenda,
+
+    • *accessible on desktop, mobile and TV* – you can display my
+    lectures on the device of your choice, so you don’t have to stick to
+    your PC,
+
+    • *certificate of completion* – after completing the course, you
+    will receive a printable certificate that will make your resume more
+    attractive.
+
+
+            What you’ll learn
+
+      * Take the next step in Python: from beginner to intermediate level
+      * Prepare for PCAP-31-0x exam
+      * Get intermediate Python skills for Software Development, Data
+        Science, Machine Learning etc.
+      * Apply for entry-level Python jobs
+      * Code along with me for real-life programming practice
+      * Create three practical programs
+
+
+            Are there any course requirements or prerequisites?
+
+      * Basic Python knowledge (PCEP-level knowledge)
+      * A device with Internet access
+      * Willingness to learn :)
+
+
+            Who this course is for:
+
+      * People who want to pass the PCAP Associate-Level exam
+      * People who passed the PCEP entry-level exam and want to continue
+        studying
+      * Beginners with some basic programming experience
+      * Wanna-be software developers and data analysts
+      * People who need intermediate Python for Machine Learning, Data
+        Science and Artificial Intelligence
+
+Instructor
+    Adrian Wiech <https://www.udemy.com/user/adrian-wiech/>
+
+    Senior Software Engineer & Udemy Instructor
+
+    <https://linkedin.com/in/adrian-wiech-1b444480/>
+
+    Hi!
+
+    My name’s Adrian and I’m a *senior* *software developer*. I
+    specialise in back-end languages such as *Java *and *Python*. My
+    programmer portfolio also includes lots of database technologies:
+    *both SQL and NoSQL databases*. I hold a Master’s Degree in Computer
+    Science.
+
+    I have over 8 years of experience**teaching people IT online. What
+    makes my courses special is their *practical background *– I’m an
+    active developer, not an IT theorist, so I know the best practices.
+    I also know what programming skills are in demand.
+
+    *My courses are:*
+
+    - *based on practice* so that you don’t learn useless theory,
+
+    - *straight to the point* to save your time,
+
+    - *easily digestible *because I want you to understand it
+    all without problems.
+
+Show moreShow less
+
+Search all course questions
+
+Filters:
+
+Sort by:
+
+Filter questions
+
+  *
+
+    Questions I'm following
+
+  *
+
+    Questions I asked
+
+  *
+
+    Questions without responses
+
+
+      All questions in this course
+
+(250)
+Comment from Pedro Prada
+
+
+        Random Pass Code <https://www.udemy.com/course/python-pcap/
+        learn/#questions/18405568>
+
+Hi here is my code! Very fun project. Let me know if there are any ways
+to improve.from random import
+Hi here is my code! Very fun project. Let me know if there are any ways
+to improve.from random import choice, shuffle## Variablesletters = ['a',
+'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm','n', 'o',
+'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']upperCase = ['A',
+'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
+'P', 'Q', 'R', 'S','T', 'U', 'V', 'W', 'X', 'Y', 'Z']digits =
+[1,2,3,4,5,6,7,8,9,0]special_chars = ['!', '@', '#', '$', '%', '&', '*',
+'|']def password_gen():  password = []  length = int(input("Provide
+password length: "))  upper = input("Use uppercase letters? (y/n)") 
+digit = input("Use digits? (y/n)")  special = input("Use special
+characters? (y/n)")  for x in range(length):   
+password.append(choice(letters))  if(upper == "y"):    for x in
+range(length):      password.append(choice(upperCase))  if(special ==
+"y"):    for x in range(length):     
+password.append(choice(special_chars))  if(digit == "y"):    for x in
+range(length):      password.append(str(choice(digits)))   
+shuffle(password)  password = password[0:length] 
+print("".join(password))game_is_on = Truewhile game_is_on:  print("---
+Password Generator---")  print("Choose option\n1:generate
+password\n2:exit the program")  user_choice = int(input("Your choice:
+"))  if(user_choice == 1):    password_gen()  else:    game_is_on =
+False    print("Bye!") 
+27 upvotes27
+
+2
+
+<https://www.udemy.com/course/python-pcap/learn/#questions/18405568>
+Pedro <https://www.udemy.com/user/pedro-prada-2/> · Lecture 29
+· 2 years ago
+RP
+
+
+        Does PCAP exam includes questions from PCEP syllabus as well ?
+        <https://www.udemy.com/course/python-pcap/learn/#questions/18847836>
+
+11 upvotes11
+
+4
+
+<https://www.udemy.com/course/python-pcap/learn/#questions/18847836>
+Rishapdeep <https://www.udemy.com/user/rishapdeep-patrai/> · Lecture 59
+· 2 years ago
+CC
+
+
+        Interpreter overheads & speed - maximise code in modules so it's
+        "pre-processed" to bytecode = faster? <https://www.udemy.com/
+        course/python-pcap/learn/#questions/18779136>
+
+Hi Adrian,Enjoying the PCEP and PCAP courses so far. Thanks for the
+clear explanations.QUESTION:- Should we pack as much code into MODULES as
+Hi Adrian,Enjoying the PCEP and PCAP courses so far. Thanks for the
+clear explanations.QUESTION:- Should we pack as much code into
+MODULES as possible, in order to optimise speed at runtime?I gather the
+actual code execution will be at the same (very slow) speed as in both
+instances Python is translating bytecode and executing it. However, in a
+lengthy project, if modules are by definition always pre-"compiled" to
+bytecode (.pyc), then the initial overheads (ie compiling from source --
+> bytecode) should be reduced if the bulk of the code is housed in
+modules... ?Cheers,ChrisCanberra, Australia
+2 upvotes2
+
+1
+
+<https://www.udemy.com/course/python-pcap/learn/#questions/18779136>
+Chris <https://www.udemy.com/user/chris-cole-72/> · Lecture 22
+· 2 years ago
+MB
+
+
+        IDK why my code didn't work, help please:( <https://
+        www.udemy.com/course/python-pcap/learn/#questions/22150741>
+
+#coding exercise 3:working with stringsdef get_longest_word(string):   
+n1=string.find('.')    while(n1!=-1):        if n1==len(string)-1:     
+     
+#coding exercise 3:working with stringsdef get_longest_word(string):   
+n1=string.find('.')    while(n1!=-1):        if n1==len(string)-1:     
+      string=string[:-1]        else:           
+string=string[:n1]+string[n1+1:]        n1=string.find('.')       
+n2=string.find(',')    while(n2!=-1):       
+string=string[:n2]+string[n2+1:]        n2=string.find(',')       
+l=string.split()    max=0    for el in l:        if
+len(el)>len(l[max]):            max=l.index(el)    return l[max]
+1 upvote1
+
+2
+
+<https://www.udemy.com/course/python-pcap/learn/#questions/22150741>
+Mohamed Ali <https://www.udemy.com/user/mohamed-ali-ben-ayed-22/> · Quiz 3
+· 6 months ago
+JA
+
+
+        Thonny <https://www.udemy.com/course/python-pcap/learn/
+        #questions/21637446>
+
+If anyone is having trouble visualising any code, you can use Thonny,
+this program is very helpful for visualising the
+If anyone is having trouble visualising any code, you can use Thonny,
+this program is very helpful for visualising the execution of code. You
+can debug the code step by step with the help of thonny.
+2 upvotes2
+
+2
+
+<https://www.udemy.com/course/python-pcap/learn/#questions/21637446>
+Jayant <https://www.udemy.com/user/jayant-agarwal-25/> · Lecture 63
+· 10 months ago
+See more
+Ask a new question
+Create a new note at 0:00
+
+All lectures
+
+  *
+    All lectures
+
+  *
+    Current lecture
+
+Sort by most recent
+
+  *
+    Sort by most recent
+
+  *
+    Sort by oldest
+
+Click the "Create a new note" box, the "+" button, or press "B" to make
+your first note.
+
+
+    Learning reminders
+
+Set up push notifications or calendar events to stay on track for your
+learning goals.
+
+Add a learning reminder
+
+
+      Mobile notifications
+
+Receive learning reminders on your mobile device.
+Udemy logo
+
+
+        Text me a link to download the app
+
+Phone country code
+
+Phone number
+
+Send
+
+By providing your phone number, you agree to receive a one-time
+automated text message with a link to get app. Standard messaging rates
+may apply.
+
+Top companies choose Udemy Business <https://www.udemy.com/udemy-
+business/?locale=en_US&path=request-demo-mx%2F&ref=footer-ad> to build
+in-demand career skills.
+NasdaqVolkswagenBoxNetAppEventbrite
+Explore top skills and certifications
+Certifications by Issuer
+
+  * Amazon Web Services (AWS) Certifications <https://www.udemy.com/
+    browse/certification/aws-certifications/>
+  * Six Sigma Certifications <https://www.udemy.com/browse/
+    certification/six-sigma-certifications/>
+  * Microsoft Certifications <https://www.udemy.com/browse/
+    certification/microsoft-certifications/>
+  * Cisco Certifications <https://www.udemy.com/browse/certification/
+    cisco-certifications/>
+  * Tableau Certifications <https://www.udemy.com/browse/certification/
+    tableau-certifications/>
+  * See all Certifications <https://www.udemy.com/browse/certification/>
+
+Web Development
+
+  * Web Development <https://www.udemy.com/topic/web-development/>
+  * JavaScript <https://www.udemy.com/topic/javascript/>
+  * React JS <https://www.udemy.com/topic/react/>
+  * Angular <https://www.udemy.com/topic/angular/>
+  * Java <https://www.udemy.com/topic/java/>
+
+IT Certifications
+
+  * Amazon AWS <https://www.udemy.com/topic/amazon-aws/>
+  * AWS Certified Cloud Practitioner <https://www.udemy.com/topic/aws-
+    certified-cloud-practitioner/>
+  * AZ-900: Microsoft Azure Fundamentals <https://www.udemy.com/topic/
+    microsoft-az-900/>
+  * AWS Certified Solutions Architect - Associate <https://
+    www.udemy.com/topic/aws-certified-solutions-architect-associate/>
+  * Kubernetes <https://www.udemy.com/topic/kubernetes/>
+
+Leadership
+
+  * Leadership <https://www.udemy.com/topic/leadership/>
+  * Management Skills <https://www.udemy.com/topic/management-skills/>
+  * Project Management <https://www.udemy.com/topic/project-management/>
+  * Personal Productivity <https://www.udemy.com/topic/personal-
+    productivity/>
+  * Emotional Intelligence <https://www.udemy.com/topic/emotional-
+    intelligence/>
+
+Certifications by Skill
+
+  * Cybersecurity Certification <https://www.udemy.com/browse/
+    certification/cybersecurity-certifications/>
+  * Project Management Certification <https://www.udemy.com/browse/
+    certification/project-management-certifications/>
+  * Cloud Certification <https://www.udemy.com/browse/certification/
+    cloud-certifications/>
+  * Data Analytics Certification <https://www.udemy.com/browse/
+    certification/data-analytics-certifications/>
+  * HR Management Certification <https://www.udemy.com/browse/
+    certification/hr-management-certifications/>
+  * See all Certifications <https://www.udemy.com/browse/certification/>
+
+Data Science
+
+  * Data Science <https://www.udemy.com/topic/data-science/>
+  * Python <https://www.udemy.com/topic/python/>
+  * Machine Learning <https://www.udemy.com/topic/machine-learning/>
+  * ChatGPT <https://www.udemy.com/topic/chatgpt/>
+  * Deep Learning <https://www.udemy.com/topic/deep-learning/>
+
+Communication
+
+  * Communication Skills <https://www.udemy.com/topic/communication-skills/>
+  * Presentation Skills <https://www.udemy.com/topic/presentation-skills/>
+  * Public Speaking <https://www.udemy.com/topic/public-speaking/>
+  * Writing <https://www.udemy.com/topic/writing/>
+  * PowerPoint <https://www.udemy.com/topic/powerpoint/>
+
+Business Analytics & Intelligence
+
+  * Microsoft Excel <https://www.udemy.com/topic/excel/>
+  * SQL <https://www.udemy.com/topic/sql/>
+  * Microsoft Power BI <https://www.udemy.com/topic/microsoft-power-bi/>
+  * Data Analysis <https://www.udemy.com/topic/data-analysis/>
+  * Business Analysis <https://www.udemy.com/topic/business-analysis/>
+
+
+      Certifications by Issuer
+
+
+      Certifications by Skill
+
+
+      Web Development
+
+
+      IT Certifications
+
+
+      Leadership
+
+
+      Data Science
+
+
+      Communication
+
+
+      Business Analytics & Intelligence
+
+About
+
+  * About us <https://about.udemy.com/?locale=en-us>
+  * Careers <https://about.udemy.com/careers?locale=en-us>
+  * Contact us <https://about.udemy.com/company?locale=en-us#offices>
+  * Blog <https://blog.udemy.com/?ref=footer>
+  * Investors <https://investors.udemy.com/>
+
+Discovery Udemy
+
+  * Get the app <https://www.udemy.com/mobile/>
+  * Teach on Udemy <https://www.udemy.com/teaching/?ref=teach_footer>
+  * Plans and Pricing <https://www.udemy.com/pricing/?ref=footer>
+  * Affiliate <https://www.udemy.com/affiliate/>
+  * Help and Support <https://www.udemy.com/support/>
+
+Udemy for Business
+
+  * Udemy Business <https://www.udemy.com/udemy-business/?
+    locale=en_US&mx_pg=index&path=%2F&ref=footer>
+
+Legal & Accessibility
+
+  * Accessibility statement <https://about.udemy.com/accessibility-
+    statement?locale=en-us>
+  * Privacy policy <https://www.udemy.com/terms/privacy/>
+  * Sitemap <https://www.udemy.com/sitemap/>
+  * Terms <https://www.udemy.com/terms/>
+
+Udemy <https://www.udemy.com/>
+© 2025 Udemy, Inc.
+
+  *
+    Cookie settings
+
+English
+
+  *
+  *
+  *
+  *
+
+    Favorite this course
+
+  *
+
+    Archive this course
+
+  *
+
+    Gift this course
+     <https://www.udemy.com/gift/python-pcap/>
+  *
+
+    Edit your rating
+
+  *
+
+    New announcement emails
+
+    Promotional emails
+
+  *
+
+    This course was purchased outside the 30-day refund policy and
+    cannot be refunded.
+
+Udemy logo
+
+
+    Privacy Preference Center
+
+Your Opt Out Preference Signal is Honored
+
+  *
+
+
+          Cookie Preferences
+
+  *
+
+
+          Functional Cookies
+
+  *
+
+
+          Social Media Cookies
+
+  *
+
+
+          Advertising Cookies
+
+  *
+
+
+          Strictly Necessary Cookies
+
+  *
+
+
+          Performance Cookies
+
+
+Cookie Preferences
+
+We use cookies to store or retrieve information on your browser. This
+information may relate to you, your preferences, or your device and is
+mostly used to make the site work as you expect it to. Because we
+respect your right to privacy, you can choose not to allow some types of
+cookies. Click on the different category headings to find out more and
+change your settings. However, blocking some types of cookies may impact
+your experience of the site and the services we are able to offer.
+More Information <https://www.udemy.com/terms/privacy/>
+
+
+        Functional Cookies
+
+Functional Cookies Inactive
+
+These cookies enable the website to provide enhanced functionality and
+personalisation. They may be set by us or by third party providers whose
+services we have added to our pages. If you do not allow these cookies
+then some or all of these services may not function properly.
+
+Cookies Details‎
+
+
+        Social Media Cookies
+
+Social Media Cookies Inactive
+
+These cookies are set by social media services that we have added to the
+site to enable you to share our content with your friends and networks.
+They are capable of tracking your browser across other sites and
+building up a profile of your interests. This may impact the content and
+messages you see on other websites you visit. If you do not allow these
+cookies you may not be able to use or see these sharing tools.
+
+Cookies Details‎
+
+
+        Advertising Cookies
+
+Advertising Cookies Inactive
+
+These cookies may be set through our site by our advertising partners.
+They may be used by those companies to build a profile of your interests
+and show you relevant adverts on other sites. They do not store
+personally identifiable information but are based on uniquely
+identifying your browser and internet device. If you do not allow these
+cookies, you will experience less targeted advertising.
+
+Cookies Details‎
+
+
+        Strictly Necessary Cookies
+
+Always Active
+
+These cookies are necessary for the website to function and cannot be
+switched off in our systems. They are usually only set in response to
+actions made by you which amount to a request for services, such as
+setting your privacy preferences, logging in or filling in forms. You
+can set your browser to block or alert you about these cookies, but some
+parts of the site will not then work. These cookies do not store any
+personally identifiable information.
+
+Cookies Details‎
+
+
+        Performance Cookies
+
+Performance Cookies Inactive
+
+These cookies allow us to count visits and measure activity so we can
+improve the performance of our site. They help us to know which pages
+are the most and least popular and see how users move around the site.
+If you do not allow these cookies, we will not be able to monitor its
+performance.
+
+Cookies Details‎
+
+Back Button
+
+
+Cookie List
+
+Filter Button
+
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+
+Clear
+
+checkbox label label
+Apply Cancel
+Confirm My Choices
+Reject All
+Allow All
+
+Powered by Onetrust <https://www.onetrust.com/products/cookie-consent/>
+Get some hints from your instructor to help you pass this exercise.
+Dismiss
+Exit expanded view
+Expand Editor
+If you want to generate user logs, write a log statement and click Run
+tests.
+Dismiss
