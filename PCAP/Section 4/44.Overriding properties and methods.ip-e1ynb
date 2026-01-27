@@ -1,0 +1,254 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "7d1f3b69-dfad-411c-8266-9f431463770c",
+   "metadata": {},
+   "source": [
+    "# A1\n",
+    "\n",
+    "## How to override a superclass property ina an object or a subclass:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "7367ddcb-1ef0-4866-bfcd-406c4d88673a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Bird():\n",
+    "    def __init__(self):\n",
+    "        self.kind = \"avian general\"\n",
+    "\n",
+    "    def sound(self):\n",
+    "        print(\"general chirp\")\n",
+    "\n",
+    "class Tit(Bird):\n",
+    "    pass"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "9f6ebfa2-60c7-47a0-840c-50a5cb53b523",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "avian general\n",
+      "general chirp\n"
+     ]
+    }
+   ],
+   "source": [
+    "twitty = Tit()\n",
+    "print(twitty.kind)\n",
+    "twitty.sound()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "8e805908-de6a-4f37-8475-44cb1f58872a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Bird():\n",
+    "    def __init__(self):\n",
+    "        self.kind = \"avian general\"\n",
+    "\n",
+    "    def sound(self):\n",
+    "        print(\"general chirp\")\n",
+    "\n",
+    "class Tit(Bird):\n",
+    "    def __init__(self):\n",
+    "        self.kind = 'tit'\n",
+    "\n",
+    "    def sound(self):\n",
+    "        print(\"pooh-tit-pooh-tit\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "4b103650-3910-4076-8e2f-ad6330188920",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tit\n",
+      "pooh-tit-pooh-tit\n"
+     ]
+    }
+   ],
+   "source": [
+    "twitty = Tit()\n",
+    "print(twitty.kind)\n",
+    "twitty.sound()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "464b09d2-d79c-48c9-bbf5-ea8b8f4b2d65",
+   "metadata": {},
+   "source": [
+    "# A2\n",
+    "\n",
+    "## What is it called to use the exact smae name for a method in a subclass?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b51da2fa-24f4-4cfb-969b-d5a266bdb23c",
+   "metadata": {},
+   "source": [
+    "### Method overriding"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "df1875a5-cfc0-438f-96c5-89af62616044",
+   "metadata": {},
+   "source": [
+    "# A3\n",
+    "\n",
+    "## OOP principles"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d613f40e-8735-4f16-8d50-965ce50a1040",
+   "metadata": {},
+   "source": [
+    "### encapsulation\n",
+    "### abstraction\n",
+    "### polymorphism\n",
+    "### inheritance"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "55664f47-99f8-4b91-b535-6c5a443961da",
+   "metadata": {},
+   "source": [
+    "### Method overriding enables polymorphism - in a general sense the ability of classes(entities) to take different forms "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "245a2913-5162-45e8-bb64-c1ba0fe62d59",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "general chirp\n",
+      "pooh-tit-pooh-tit\n"
+     ]
+    }
+   ],
+   "source": [
+    "bird1 = Bird()\n",
+    "bird2 = Tit()\n",
+    "bird1.sound()\n",
+    "bird2.sound()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "8bd75fd1-e792-4697-b333-4f16ec95ead3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Bird():\n",
+    "    def __init__(self):\n",
+    "        self.kind = \"avian general\"\n",
+    "\n",
+    "    def sound(self):\n",
+    "        print(\"general chirp\")\n",
+    "    def taxonomy(self):\n",
+    "        a = self.sound()\n",
+    "        print(\"This bird's sound is: \"  +a) \n",
+    "        \n",
+    "class Tit(Bird):\n",
+    "    def __init__(self):\n",
+    "        self.kind = 'tit'\n",
+    "\n",
+    "    def sound(self):\n",
+    "        print(\"pooh-tit-pooh-tit\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "1b65bd40-c91f-4e6a-9f35-2008d2dc9ab6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "general chirp\n"
+     ]
+    },
+    {
+     "ename": "TypeError",
+     "evalue": "can only concatenate str (not \"NoneType\") to str",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[43], line 4\u001b[0m\n\u001b[0;32m      2\u001b[0m bird2 \u001b[38;5;241m=\u001b[39m Tit()\n\u001b[0;32m      3\u001b[0m \u001b[38;5;66;03m#bird1.sound()\u001b[39;00m\n\u001b[1;32m----> 4\u001b[0m \u001b[43mbird1\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mtaxonomy\u001b[49m\u001b[43m(\u001b[49m\u001b[43m)\u001b[49m\n\u001b[0;32m      5\u001b[0m \u001b[38;5;66;03m#bird2.sound()\u001b[39;00m\n\u001b[0;32m      6\u001b[0m bird2\u001b[38;5;241m.\u001b[39mtaxonomy()\n",
+      "Cell \u001b[1;32mIn[41], line 9\u001b[0m, in \u001b[0;36mBird.taxonomy\u001b[1;34m(self)\u001b[0m\n\u001b[0;32m      7\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;21mtaxonomy\u001b[39m(\u001b[38;5;28mself\u001b[39m):\n\u001b[0;32m      8\u001b[0m     a \u001b[38;5;241m=\u001b[39m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39msound()\n\u001b[1;32m----> 9\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43mThis bird\u001b[39;49m\u001b[38;5;124;43m'\u001b[39;49m\u001b[38;5;124;43ms sound is: \u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[43m  \u001b[49m\u001b[38;5;241;43m+\u001b[39;49m\u001b[43ma\u001b[49m)\n",
+      "\u001b[1;31mTypeError\u001b[0m: can only concatenate str (not \"NoneType\") to str"
+     ]
+    }
+   ],
+   "source": [
+    "bird1 = Bird()\n",
+    "bird2 = Tit()\n",
+    "#bird1.sound()\n",
+    "bird1.taxonomy()\n",
+    "#bird2.sound()\n",
+    "bird2.taxonomy()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2b8b4282-da8d-4c9c-84f5-c6c97b685087",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
